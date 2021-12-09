@@ -47,3 +47,7 @@ export const fishes = (req: Request, res: Response) => {
         list
     })
 }
+
+export const nf = (req: Request, res: Response) => {
+    res.render('pages/404')
+}
